@@ -1211,5 +1211,18 @@ function render(){
 render();
 })();
 </script>
+  <script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker.register("/service-worker.js")
+      .then(function() {
+        console.log("TudoList PWA ativo");
+      })
+      .catch(function(error) {
+        console.log("Erro:", error);
+      });
+  });
+}
+</script>
 </body>
 </html>
