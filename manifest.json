@@ -1,0 +1,13 @@
+{
+  "name": "TudoList",
+  "short_name": "TudoList",
+  "description": "Sua lista de tarefas e compras.",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0F7A4F",
+  "lang": "pt-BR"
+}
